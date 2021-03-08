@@ -1,0 +1,55 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1701542
+Dominik Frankowski
+CMP303 
+Using SFML 2.5.1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Notes:
+
+
+ - In order to run more than one client follow
+ the below steps but run the client.exe more
+ than once and repeat the steps related to
+ the client's rendering window for all players.
+ 
+ 
+ - There can only be multiple players in the
+ game if the client and executable are run on
+ the same PC. To have multiple players across
+ separate machines the source code for the
+ client must be opened and the 3 instances of
+ sf::IpAddress::getLocalAddress() must be
+ replaced with the address of the server (which
+ should be printed in the first line of the
+ console when it is run) in the format of a
+ string i.e. ["x.x.x.x"]. The program can then
+ be compiled and steps 3-6 can be followed.
+ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ Instructions:
+ 
+ 
+1. Run the server.exe.
+
+2. Run the client.exe.
+
+3. Clicking the LMB on the "PLAY GAME" button
+ in the client rendering window will start
+ the game.
+ 
+4. Move the character using WASD in each respective
+ direction. Moving the cursor around the 
+ screen rotates the player.
+ 
+5. Pressing the space bar will stop the game
+ and exit to the main menu.
+ 
+6. Clicking the LMB on the "QUIT" button in
+ the client rendering window will exit the
+ game.
+ 
+7. To close the server click the close button
+ at the top right corner of the console using
+ the LMB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
